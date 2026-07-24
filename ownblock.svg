@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 307.66 354.49">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="OwnBlock">
+    <g id="BW-Landscape">
+      <g id="OwnBlock_Logo" data-name="OwnBlock Logo" shape-rendering="geometricPrecision">
+        <g id="BigBox">
+          <polygon class="cls-2" points="153.83 2.5 305.16 89.87 250.24 121.59 153.83 65.93 153.83 2.5"/>
+          <polygon class="cls-2" points="305.16 89.87 305.16 264.62 250.24 232.91 250.24 121.59 305.16 89.87"/>
+          <polygon class="cls-2" points="305.16 264.62 153.83 351.99 153.83 288.57 250.24 232.91 305.16 264.62"/>
+          <polygon class="cls-2" points="153.83 351.99 2.5 264.62 57.42 232.91 153.83 288.57 153.83 351.99"/>
+          <polygon class="cls-2" points="2.5 264.62 2.5 89.87 57.42 121.59 57.42 232.91 2.5 264.62"/>
+          <polygon class="cls-2" points="2.5 89.87 153.83 2.5 153.83 65.93 57.42 121.59 2.5 89.87"/>
+        </g>
+        <g id="Box">
+          <polygon class="cls-1" points="153.83 97.64 221.14 136.47 153.83 176.6 86.52 136.47 153.83 97.64"/>
+          <polygon class="cls-1" points="86.52 136.47 153.83 176.6 153.83 256.85 86.52 218.02 86.52 136.47"/>
+          <polygon class="cls-1" points="221.14 136.47 153.83 176.6 153.83 256.85 221.14 218.02 221.14 136.47"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
