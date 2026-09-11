@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Glow -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0e2a4a"/>
+      <stop offset="60%" stop-color="#071226"/>
+      <stop offset="100%" stop-color="#02050c"/>
+    </radialGradient>
+
+    <!-- Outer Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d7bd0"/>
+      <stop offset="50%" stop-color="#60b2fb"/>
+      <stop offset="100%" stop-color="#123d70"/>
+    </linearGradient>
+
+    <!-- Inner Ring Gradient -->
+    <linearGradient id="innerRingGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0055a5"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+
+    <!-- Pickaxe Metal Gradient -->
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#e2e8f0"/>
+      <stop offset="70%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <!-- Handle Blue Glow Gradient -->
+    <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="30%" stop-color="#3b82f6"/>
+      <stop offset="70%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+
+    <!-- Cube Top Face Gradient -->
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <!-- Cube Left Face Gradient -->
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+
+    <!-- Cube Right Face Gradient -->
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+
+    <!-- Sparkle Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Perfect Circle Clip Path -->
+    <clipPath id="circleClip">
+      <circle cx="250" cy="250" r="250"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main Content Wrapped in Exact Circle Clip -->
+  <g clip-path="url(#circleClip)">
+    <!-- Base Circle Background -->
+    <circle cx="250" cy="250" r="250" fill="url(#bgGlow)"/>
+
+    <!-- Outer Glowing Rings -->
+    <circle cx="250" cy="250" r="236" fill="none" stroke="url(#ringGrad)" stroke-width="8"/>
+    <circle cx="250" cy="250" r="222" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.6"/>
+    <circle cx="250" cy="250" r="212" fill="none" stroke="url(#innerRingGrad)" stroke-width="5"/>
+
+    <!-- Subtle Background Grid/Network -->
+    <g stroke="#1e40af" stroke-width="1" opacity="0.25">
+      <line x1="150" y1="350" x2="350" y2="350"/>
+      <line x1="180" y1="310" x2="320" y2="310"/>
+      <line x1="210" y1="270" x2="290" y2="270"/>
+      <line x1="250" y1="250" x2="150" y2="350"/>
+      <line x1="250" y1="250" x2="350" y2="350"/>
+      <line x1="250" y1="250" x2="250" y2="380"/>
+    </g>
+
+    <!-- Blockchain Cubes Group -->
+    <g id="cubes" transform="translate(0, 20)">
+      <!-- Bottom Left Cube -->
+      <g transform="translate(180, 310)">
+        <polygon points="0,-16 16,-8 0,0 -16,-8" fill="url(#cubeTop)"/>
+        <polygon points="-16,-8 0,0 0,18 -16,10" fill="url(#cubeLeft)"/>
+        <polygon points="0,0 16,-8 16,10 0,18" fill="url(#cubeRight)"/>
+      </g>
+
+      <!-- Bottom Right Cube -->
+      <g transform="translate(320, 310)">
+        <polygon points="0,-16 16,-8 0,0 -16,-8" fill="url(#cubeTop)"/>
+        <polygon points="-16,-8 0,0 0,18 -16,10" fill="url(#cubeLeft)"/>
+        <polygon points="0,0 16,-8 16,10 0,18" fill="url(#cubeRight)"/>
+      </g>
+
+      <!-- Middle Left Cube -->
+      <g transform="translate(215, 280)">
+        <polygon points="0,-20 20,-10 0,0 -20,-10" fill="url(#cubeTop)"/>
+        <polygon points="-20,-10 0,0 0,22 -20,12" fill="url(#cubeLeft)"/>
+        <polygon points="0,0 20,-10 20,12 0,22" fill="url(#cubeRight)"/>
+      </g>
+
+      <!-- Middle Right Cube -->
+      <g transform="translate(285, 280)">
+        <polygon points="0,-20 20,-10 0,0 -20,-10" fill="url(#cubeTop)"/>
+        <polygon points="-20,-10 0,0 0,22 -20,12" fill="url(#cubeLeft)"/>
+        <polygon points="0,0 20,-10 20,12 0,22" fill="url(#cubeRight)"/>
+      </g>
+
+      <!-- Center Main Cube -->
+      <g transform="translate(250, 240)">
+        <polygon points="0,-26 26,-13 0,0 -26,-13" fill="#93c5fd"/>
+        <polygon points="-26,-13 0,0 0,28 -26,15" fill="url(#cubeLeft)"/>
+        <polygon points="0,0 26,-13 26,15 0,28" fill="url(#cubeRight)"/>
+        <path d="M-26,-13 L0,0 L26,-13 M0,0 L0,28" fill="none" stroke="#e0f2fe" stroke-width="1.5" opacity="0.8"/>
+      </g>
+
+      <!-- Connection Lines -->
+      <path d="M250,240 L215,280 M250,240 L285,280 M215,280 L180,310 M285,280 L320,310" stroke="#60a5fa" stroke-width="1.5" opacity="0.6" stroke-dasharray="3,3"/>
+    </g>
+
+    <!-- Secondary Background Pickaxe -->
+    <g opacity="0.35" transform="rotate(-30 250 220)">
+      <path d="M80,330 L390,130 L400,145 L90,345 Z" fill="#3b82f6"/>
+      <path d="M370,110 C340,100 290,110 260,130 C300,145 350,150 380,180 C385,150 395,125 370,110 Z" fill="#93c5fd"/>
+    </g>
+
+    <!-- Primary Foreground Pickaxe -->
+    <g id="main-pickaxe">
+      <!-- Handle Shadow -->
+      <path d="M123,363 L343,143 L358,158 L138,378 Z" fill="#030712" opacity="0.5"/>
+
+      <!-- Handle Base Structure -->
+      <path d="M120,360 L340,140 L355,155 L135,375 Z" fill="url(#handleGrad)" stroke="#1d4ed8" stroke-width="1"/>
+
+      <!-- Handle Metallic Grip Wraps -->
+      <path d="M135,375 L150,360 L157,367 L142,382 Z" fill="#93c5fd" opacity="0.6"/>
+      <path d="M170,340 L185,325 L192,332 L177,347 Z" fill="#93c5fd" opacity="0.6"/>
+      <path d="M205,305 L220,290 L227,297 L212,312 Z" fill="#93c5fd" opacity="0.6"/>
+
+      <!-- Handle Highlights -->
+      <line x1="120" y1="360" x2="340" y2="140" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+      <line x1="135" y1="375" x2="355" y2="155" stroke="#1e3a8a" stroke-width="2"/>
+
+      <!-- Pickaxe Head -->
+      <g id="pickaxe-head">
+        <path d="M315,115 C270,105 210,120 170,150 C220,155 265,170 300,200 C305,175 315,135 315,115 Z" fill="url(#metalGrad)" stroke="#cbd5e1" stroke-width="1"/>
+        <path d="M315,115 C360,105 420,120 460,150 C410,155 365,170 330,200 C325,175 315,135 315,115 Z" fill="url(#metalGrad)" stroke="#cbd5e1" stroke-width="1"/>
+        <path d="M300,130 L340,110 L355,145 L315,165 Z" fill="#f8fafc"/>
+        <path d="M300,130 L340,110 L330,150 L300,140 Z" fill="#94a3b8"/>
+        <path d="M170,150 C240,115 390,115 460,150" fill="none" stroke="#ffffff" stroke-width="2.5" filter="url(#glow)"/>
+        <path d="M220,155 C265,170 300,200 300,200" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.8"/>
+        <path d="M410,155 C365,170 330,200 330,200" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.8"/>
+      </g>
+    </g>
+
+    <!-- Mining Impact / Sparkle Effects -->
+    <g id="sparks" filter="url(#glow)">
+      <circle cx="325" cy="135" r="16" fill="#ffffff" opacity="0.9"/>
+      <circle cx="325" cy="135" r="30" fill="#38bdf8" opacity="0.4"/>
+      <path d="M325,100 L329,129 L358,135 L329,141 L325,170 L321,141 L292,135 L321,129 Z" fill="#ffffff"/>
+      <path d="M250,180 L252,195 L267,197 L252,199 L250,214 L248,199 L233,197 L248,195 Z" fill="#7dd3fc" transform="scale(0.7) translate(100, -20)"/>
+      <path d="M390,200 L392,207 L399,209 L392,211 L390,218 L388,211 L381,209 L388,207 Z" fill="#e0f2fe"/>
+      <circle cx="300" cy="110" r="3" fill="#7dd3fc"/>
+      <circle cx="355" cy="115" r="2.5" fill="#ffffff"/>
+      <circle cx="280" cy="150" r="2" fill="#38bdf8"/>
+      <circle cx="360" cy="165" r="3.5" fill="#bae6fd"/>
+      <circle cx="325" cy="90" r="2" fill="#ffffff"/>
+      <circle cx="230" cy="230" r="2.5" fill="#60a5fa"/>
+      <circle cx="270" cy="220" r="1.5" fill="#93c5fd"/>
+      <circle cx="340" cy="220" r="2" fill="#38bdf8"/>
+    </g>
+
+    <!-- Edge Border Frame -->
+    <circle cx="250" cy="250" r="248" fill="none" stroke="#2563eb" stroke-width="4"/>
+  </g>
+</svg>
