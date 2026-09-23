@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+<title id="title">RabidPool flat vector logo</title>
+<desc id="desc">Flat vector RabidPool logo using the Rabid Mining red wolf and gold mining helmet, with a globe network and crossed pickaxes. No AI imagery.</desc>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+  <circle cx="400" cy="360" r="330" fill="#080A0C" stroke="#E8211A" stroke-width="24"/>
+  <circle cx="400" cy="360" r="302" fill="#111820" stroke="#2A313A" stroke-width="8"/>
+
+  <!-- globe -->
+  <circle cx="400" cy="330" r="220" fill="#0E1217" stroke="#D4A017" stroke-width="8"/>
+  <ellipse cx="400" cy="330" rx="105" ry="220" fill="none" stroke="#E8211A" stroke-width="7"/>
+  <ellipse cx="400" cy="330" rx="180" ry="220" fill="none" stroke="#E8211A" stroke-width="5" opacity=".8"/>
+  <path d="M195 265H605 M180 330H620 M195 395H605" fill="none" stroke="#E8211A" stroke-width="7" opacity=".85"/>
+  <g fill="#F4B41A" stroke="#080A0C" stroke-width="5">
+    <circle cx="227" cy="246" r="13"/><circle cx="573" cy="246" r="13"/>
+    <circle cx="194" cy="342" r="13"/><circle cx="606" cy="342" r="13"/>
+    <circle cx="259" cy="443" r="13"/><circle cx="541" cy="443" r="13"/>
+  </g>
+
+  <!-- pickaxes -->
+  <path d="M190 545 L535 198" stroke="#AAB2BD" stroke-width="24"/>
+  <path d="M610 545 L265 198" stroke="#AAB2BD" stroke-width="24"/>
+  <path d="M165 520 L214 569" stroke="#6D7680" stroke-width="36"/>
+  <path d="M635 520 L586 569" stroke="#6D7680" stroke-width="36"/>
+  <path d="M500 168 C546 151 584 159 617 183 C575 187 541 201 509 225 Z" fill="#C7CDD4" stroke="#080A0C" stroke-width="8"/>
+  <path d="M300 168 C254 151 216 159 183 183 C225 187 259 201 291 225 Z" fill="#C7CDD4" stroke="#080A0C" stroke-width="8"/>
+
+  <!-- wolf ears -->
+  <path d="M265 253 L221 114 L341 196 Z" fill="#E8211A" stroke="#080A0C" stroke-width="14"/>
+  <path d="M535 253 L579 114 L459 196 Z" fill="#E8211A" stroke="#080A0C" stroke-width="14"/>
+  <path d="M270 212 L242 142 L319 193 Z" fill="#7A0D0B"/>
+  <path d="M530 212 L558 142 L481 193 Z" fill="#7A0D0B"/>
+
+  <!-- wolf head -->
+  <path d="M400 176
+           C328 176 280 222 260 287
+           C235 368 263 463 330 507
+           C355 524 376 533 400 538
+           C424 533 445 524 470 507
+           C537 463 565 368 540 287
+           C520 222 472 176 400 176 Z"
+        fill="#E8211A" stroke="#080A0C" stroke-width="16"/>
+  <path d="M273 318 L330 285 L311 342 L356 321 L331 392 L275 414 Z" fill="#680B0A"/>
+  <path d="M527 318 L470 285 L489 342 L444 321 L469 392 L525 414 Z" fill="#680B0A"/>
+
+  <!-- eyes -->
+  <path d="M296 296 L373 274 L350 324 L300 334 Z" fill="#080A0C"/>
+  <path d="M504 296 L427 274 L450 324 L500 334 Z" fill="#080A0C"/>
+  <path d="M307 307 L356 294 L343 323 L312 328 Z" fill="#F4F6F8" stroke="#E8211A" stroke-width="4"/>
+  <path d="M493 307 L444 294 L457 323 L488 328 Z" fill="#F4F6F8" stroke="#E8211A" stroke-width="4"/>
+
+  <!-- muzzle -->
+  <path d="M334 363 C351 331 377 319 400 319 C423 319 449 331 466 363
+           L484 433 C466 480 435 507 400 513 C365 507 334 480 316 433 Z"
+        fill="#8B100E" stroke="#080A0C" stroke-width="11"/>
+  <path d="M360 369 C377 357 423 357 440 369 L431 404
+           C415 419 385 419 369 404 Z"
+        fill="#080A0C"/>
+  <ellipse cx="400" cy="383" rx="35" ry="25" fill="#15191E"/>
+  <path d="M330 430 C354 467 446 467 470 430 C454 483 428 507 400 513 C372 507 346 483 330 430 Z" fill="#080A0C"/>
+  <g fill="#F4F6F8" stroke="#080A0C" stroke-width="3">
+    <path d="M346 440 L365 440 L355 473 Z"/>
+    <path d="M372 445 L390 445 L381 477 Z"/>
+    <path d="M410 445 L428 445 L419 477 Z"/>
+    <path d="M435 440 L454 440 L445 473 Z"/>
+  </g>
+
+  <!-- hardhat -->
+  <path d="M274 222 C284 137 331 92 400 92 C469 92 516 137 526 222
+           L493 239 H307 Z"
+        fill="#F4B41A" stroke="#080A0C" stroke-width="14"/>
+  <path d="M308 215 C319 153 353 122 400 122 C447 122 481 153 492 215"
+        fill="none" stroke="#D48806" stroke-width="13"/>
+  <path d="M255 217 H545 L520 246 H280 Z" fill="#D4A017" stroke="#080A0C" stroke-width="11"/>
+  <path d="M286 190 H514" stroke="#080A0C" stroke-width="17"/>
+  <circle cx="400" cy="188" r="42" fill="#2B3138" stroke="#080A0C" stroke-width="10"/>
+  <circle cx="400" cy="188" r="27" fill="#F4F6F8" stroke="#D4A017" stroke-width="7"/>
+  <circle cx="400" cy="188" r="11" fill="#FFFFFF"/>
+
+  <!-- wordmark -->
+  <path d="M125 520 L675 520 L646 690 L154 690 Z" fill="#080A0C" stroke="#E8211A" stroke-width="12"/>
+  <text x="400" y="605" text-anchor="middle"
+        fill="#F4F6F8" stroke="#080A0C" stroke-width="3"
+        font-family="Arial Black, DejaVu Sans, sans-serif" font-size="92" font-weight="900"
+        letter-spacing="5">RABID</text>
+  <text x="400" y="675" text-anchor="middle"
+        fill="#F4B41A" stroke="#080A0C" stroke-width="3"
+        font-family="Arial Black, DejaVu Sans, sans-serif" font-size="92" font-weight="900"
+        letter-spacing="8">POOL</text>
+</g>
+</svg>
